@@ -9,9 +9,9 @@ app = Flask(__name__)
 app.secret_key = 'BAD_SECRET_KEY'
 
 #返回一些数据给浏览器
-@app.route("/index")
-def index():
-  return render_template("index.html")
+@app.route("/Index")
+def Index():
+  return render_template("Index.html")
  
 @app.route("/about")
 def about():
